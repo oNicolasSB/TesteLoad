@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body{
+    background-color: #0B1727;
+}
+
+.navegacao{
+    height: 100px;
+}
+nav{
+    
+    border-bottom: 1px solid rgba(0, 102, 255, 0.1);
+}
+
+/* Cores: */
+.color-primary{
+    color: #0066FF;
+}
+.color-primary-darken{
+    color: #0052CC;
+}
+.color-gray-lighten{
+    color: #CEDAE3;
+}
+.color-gray-darken{
+    color: #8FAABF;
+}
+.color-darken{
+    color: #0B1727;
+}
+.color-white{
+    color: #FFFFFF;
+}
+
+/* Fonte: */
+
+.font-xxl{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 115.5%;
+}
+.font-md{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.font-md-under{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.font-sm{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* Botões */
+.btn-primary{
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    background-color: #0066FF;
+}
+.btn-secondary{
+    padding: 20px 40px 20px 40px;
+    border-radius: 15px;
+    background: rgba(0, 102, 255, 0.2);
+}
